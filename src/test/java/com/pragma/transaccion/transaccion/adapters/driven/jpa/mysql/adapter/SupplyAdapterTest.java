@@ -16,7 +16,7 @@ import java.time.LocalDate;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.verify;
 
-public class SupplyAdapterTest {
+class SupplyAdapterTest {
 
     @Mock
     private ISupplyRepository supplyRepository;
@@ -33,7 +33,7 @@ public class SupplyAdapterTest {
     }
 
     @Test
-    public void testSaveSupply() {
+   void testSaveSupply() {
         // Arrange
         Supply supply = new Supply(1L, 10);
         SupplyEntity supplyEntity = new SupplyEntity();

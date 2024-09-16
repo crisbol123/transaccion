@@ -7,7 +7,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 class TransaccionApplicationTests {
 
 	@Test
-	void contextLoads() {
+	void contextLoads() {//NONCOMPLIANT
 	}
 
 }

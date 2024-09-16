@@ -4,7 +4,6 @@ import com.pragma.transaccion.transaccion.adapters.driving.http.dto.supply.reque
 import com.pragma.transaccion.transaccion.adapters.driving.http.handlers.SupplyHandler;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
-import io.swagger.v3.oas.annotations.media.Schema;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import jakarta.validation.Valid;

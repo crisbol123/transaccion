@@ -14,7 +14,7 @@ import org.mockito.MockitoAnnotations;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.Mockito.verify;
 
-public class SupplyUseCaseTest {
+class SupplyUseCaseTest {
 
     @Mock
     private ISupplyPersistencePort supplyPersistencePort;
@@ -31,7 +31,7 @@ public class SupplyUseCaseTest {
     }
 
     @Test
-    public void testSaveSupply() {
+  void testSaveSupply() {
         // Arrange
         Supply supply = new Supply(1L, 10);
 
